@@ -1,0 +1,71 @@
+body{
+    background-color: white;
+}
+.card {
+    /* Add shadows to create the "card" effect */
+    padding: 2%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+    transition: 0.1s;
+    opacity: 0.7;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
+    opacity: 1;
+}
+
+/* Add some padding inside the card container */
+.card-title{
+    color:black;
+       padding: 2%;
+    opacity:2;
+}
+#resources-part-2{
+    background-color:white;
+}
+.options{
+    background-color: white;
+    padding: 3%;
+}
+#topic{
+    background-color: black;
+}
+.description{
+    background-color: white;
+}
+.basic-info{
+    display:block;
+}
+.documents{
+    display:none;
+}
+.facilities{
+    display: none;
+}
+.registration{
+    display: none;
+}
+.location{
+    display:none;
+}
+.necessary{
+    display: none;
+}
+.counselling{
+    display: none;
+}
+.mentor{
+    display: none;
+}
+.counselling a{
+    color: black;
+}
+.description{
+    background-color: dimgray;
+    opacity: 1;
+    color: white;
+    padding: 6%;
+    margin: 0;
+}

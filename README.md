@@ -1,2 +1,2 @@
-# ISMP-2017-18
-Institute Student Mentorship Program of IIT Ropar
+# ISMP-2017
+Institute Student MentorShip Program (ISMP-2017) of IIT Ropar 

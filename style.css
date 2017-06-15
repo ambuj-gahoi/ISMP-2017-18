@@ -1,0 +1,133 @@
+body{
+    background-color: white;
+}
+.drop-list{
+    background-color: darkgreen;
+    opacity: 1;
+    padding: 2%;
+}
+.drop-list:hover{
+    background-color: grey;
+    opacity: 0.9;
+    padding: 2%;
+}
+#drop{
+    background-color: darkgreen;
+    opacity: 1;
+}
+
+.drop-list a{
+    color: white;
+    text-decoration: none;
+}
+#top_navbar{
+    background-color: darkgreen;
+    opacity: 0.9;
+}
+.carousel-caption img{
+    opacity: 0.7;
+}
+h3{
+    color: maroon;
+}
+#part-2{
+    background-color: white;
+}
+
+#jumbo{
+    padding: 1%;
+     background-color: darkgreen;
+    opacity: 0.9;
+    color: white;
+}
+#about_us{
+    background-color:cornsilk;
+}
+
+.footer{
+    background-color: black;
+    color: white;
+}
+.footer a{
+    text-decoration: none;
+    color: gray;
+}
+.footer a:hover{
+    text-decoration:underline;
+    color: gold;
+}
+.footer h4{
+    text-decoration: none;
+    color: white;
+}
+
+.card {
+    /* Add shadows to create the "card" effect */
+    padding: 2%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+    transition: 0.1s;
+    opacity: 0.7;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
+    opacity: 1;
+}
+
+.card-home {
+    /* Add shadows to create the "card" effect */
+    padding: 2%;
+    background-color: gainsboro;
+    transition: 0.1s;
+    color: black;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card-home:hover {
+    background-color: gray;
+}
+
+/* Add some padding inside the card container */
+.card-title{
+    color:black;
+       padding: 2%;
+    opacity:2;
+}
+
+
+
+
+
+.carousel-fade .carousel-inner .item {
+  opacity: 0;
+  -webkit-transition-property: opacity;
+  -moz-transition-property: opacity;
+  -o-transition-property: opacity;
+  transition-property: opacity;
+}
+.carousel-fade .carousel-inner .active {
+  opacity: 1;
+}
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  left: 0;
+  opacity: 0.2;
+  z-index: 1;
+  transition: 1s;
+  transform: translate3d(0, 0, 0);
+}
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+  opacity: 1;
+}
+.carousel-fade .carousel-control {
+  z-index: 2;
+}
+.gray {
+    color: black;
+    background-color: white;
+    opacity:0.5;
+    vertical-align: middle;
+}
